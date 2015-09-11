@@ -7,17 +7,17 @@
 
 import UIKit
 
-class KANotificationView: UIView {
+public class KANotificationView: UIView {
 
     let duration:NSTimeInterval = 3.0
     let animationDuration:NSTimeInterval = 0.8
 
-    @objc enum NotificationViewPosition: Int {
+    public enum NotificationViewPosition: Int {
         case Top
         case Bottom
     }
 
-    @objc enum NotificationViewType: Int {
+    public enum NotificationViewType: Int {
         case Information
     }
 
@@ -38,11 +38,11 @@ class KANotificationView: UIView {
         setup()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    class func showInViewController(controller: UIViewController, title:String, blurEffectStyle: UIBlurEffectStyle, type: NotificationViewType, callback:((completed:Bool) -> Void)?) {
+    public class func showInViewController(controller: UIViewController, title:String, blurEffectStyle: UIBlurEffectStyle, type: NotificationViewType, callback:((completed:Bool) -> Void)?) {
 
         let notificationView = KANotificationView(
             blurEffectStyle: blurEffectStyle,
@@ -101,7 +101,7 @@ class KANotificationView: UIView {
         }
     }
 
-    class func showInView(view:UIView, title:String, blurStyle:UIBlurEffectStyle, type: NotificationViewType, position:NotificationViewPosition, callback:(() -> Void)?) {
+    public class func showInView(view:UIView, title:String, blurStyle:UIBlurEffectStyle, type: NotificationViewType, position:NotificationViewPosition, callback:(() -> Void)?) {
 
         let notificationView = KANotificationView(
             blurEffectStyle: blurStyle,

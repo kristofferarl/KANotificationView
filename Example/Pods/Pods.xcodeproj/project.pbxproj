@@ -7,379 +7,377 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006401C09F435125BD3F5958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA54758B7F47641F29A6348 /* Foundation.framework */; };
-		0759BA4D9E24261B2F999D57 /* KANotificationView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A908B9E62DFB8003D29C7E2 /* KANotificationView.bundle */; };
-		0AEADC27DA4FA55FE810BD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA54758B7F47641F29A6348 /* Foundation.framework */; };
-		42F6705C90C1371DA2A731BA /* KANotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42427371FDC70CEA532315 /* KANotificationView.swift */; };
-		59DBF4C316A12FFF213E1270 /* Pods-KANotificationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B6E9F21D5EA661EBE82C47 /* Pods-KANotificationView_Tests-dummy.m */; };
-		6A5D20795ACFF14527CBF893 /* Pods-KANotificationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EC3FB91A9784CBAEB320A2 /* Pods-KANotificationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B82A3F82A05551FB165989C /* Pods-KANotificationView_Example-KANotificationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD551ABDAC82287315A476 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */; };
-		72077372F46EBA984E22D28A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA54758B7F47641F29A6348 /* Foundation.framework */; };
-		73DE2684FCDBC3A6CC675D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA54758B7F47641F29A6348 /* Foundation.framework */; };
-		75F145500C44569B53FDB6CC /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADDF99E9F27F3D32EDCD577 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8613C0A34B85FC89D6B9E6ED /* KANotificationView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 363C19489C38FB663E75112A /* KANotificationView.bundle */; };
-		9D35E9B693F775DBA509FFC3 /* Pods-KANotificationView_Tests-KANotificationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B534200EDCFAB6877836CBD /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */; };
-		BFE3EF790666ACF0D694D12B /* Pods-KANotificationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6113E76460E1AA286FE4CC03 /* Pods-KANotificationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCA8DA1671685304C1E9A3FA /* Pods-KANotificationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D691A832F5D51B26B6CC8B5 /* Pods-KANotificationView_Example-dummy.m */; };
-		D6AA2414312F1D9990F22F96 /* KANotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42427371FDC70CEA532315 /* KANotificationView.swift */; };
-		F0E608FB37EF9B2E8265FEF6 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D710D043411CF4CA4BBD17 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01BED97CC7A438FB2C405A7F /* KANotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328E7C0F89DCE561E60923D6 /* KANotificationView.swift */; };
+		07C34A4CC57A785B5141037F /* Pods-KANotificationView_Tests-KANotificationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78436EA4DF11F7D195800804 /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */; };
+		12BE71BECF4D4FFA44864697 /* Pods-KANotificationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC172D9A7DB5717EE2399563 /* Pods-KANotificationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2979DACA254E13E7C65D34A4 /* KANotificationView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2A845979F2E3BD41A3F52F6 /* KANotificationView.bundle */; };
+		3F6529BCB3EC04E90A367BD4 /* Pods-KANotificationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FDFA97B7ECC9983BD803 /* Pods-KANotificationView_Tests-dummy.m */; };
+		51EF68064ECDC13DC3D87A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBF766641F077D2105EEAE /* Foundation.framework */; };
+		59A5C139E8E9FE6494C7DB6B /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7DE2DD8A893DBA38317746 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635AD6424655EA6FBD705D9C /* Pods-KANotificationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFBF1B981ACC410DFB176E /* Pods-KANotificationView_Example-dummy.m */; };
+		735E9FD4AFF26CAA4E7E1809 /* Pods-KANotificationView_Example-KANotificationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A43C7DC9D2F2EBB34767C74 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */; };
+		7B3794F3B8FFB299AC219DD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBF766641F077D2105EEAE /* Foundation.framework */; };
+		8A0CA496A2B573244F575870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBF766641F077D2105EEAE /* Foundation.framework */; };
+		BB10E68ED9450FA44600F0FA /* Pods-KANotificationView_Example-KANotificationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A87A9D9BBD08BE4D15A2F1 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25B80BA042CCF9000FE0635 /* KANotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328E7C0F89DCE561E60923D6 /* KANotificationView.swift */; };
+		E06FF16C6C8FB317400FE361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBF766641F077D2105EEAE /* Foundation.framework */; };
+		EE16DA70C457DF98C90708E9 /* KANotificationView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D150A43298767B5ACC7641F /* KANotificationView.bundle */; };
+		F884DAAED6543A3BB90D8B08 /* Pods-KANotificationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0CF7FC2567BA14A1C957C8 /* Pods-KANotificationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		258B47C4CCF57B236F51AA53 /* PBXContainerItemProxy */ = {
+		31D95D0B6C3E6FC2A91AB868 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F53FE20AA467E65F20FA9350 /* Project object */;
+			containerPortal = F8BC8B38F66B07D0A285036F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E46D8A8BEDAC2543E1533D54;
-			remoteInfo = "Pods-KANotificationView_Example-KANotificationView-KANotificationView";
-		};
-		55C62744D5E32D0B7B84A8D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F53FE20AA467E65F20FA9350 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4A6CB2567F65DEB35197553;
-			remoteInfo = "Pods-KANotificationView_Tests-KANotificationView";
-		};
-		B2656A04F85B1B45C5105D6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F53FE20AA467E65F20FA9350 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAF133FDDD80FBB5DA2622E0;
+			remoteGlobalIDString = DF7122D62860FCFC1EA3652F;
 			remoteInfo = "Pods-KANotificationView_Tests-KANotificationView-KANotificationView";
 		};
-		BDA5A9911038C235993BC4BE /* PBXContainerItemProxy */ = {
+		B4ABC9AFBCF17F94A6F838EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F53FE20AA467E65F20FA9350 /* Project object */;
+			containerPortal = F8BC8B38F66B07D0A285036F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B96F604014FB3B9A58E4ED5B;
+			remoteGlobalIDString = F08EB988D2D81518F0046374;
 			remoteInfo = "Pods-KANotificationView_Example-KANotificationView";
+		};
+		C4E12C0C02F44E4545BD8BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BC8B38F66B07D0A285036F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0357B6064CDB432C0E2F2DA;
+			remoteInfo = "Pods-KANotificationView_Example-KANotificationView-KANotificationView";
+		};
+		D32B3A9CD744B74E2ED1051C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BC8B38F66B07D0A285036F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D9B00D3C87FA5F2DDC224C;
+			remoteInfo = "Pods-KANotificationView_Tests-KANotificationView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03710DD73ACB693BD5622D18 /* Pods-KANotificationView_Tests-KANotificationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KANotificationView_Tests-KANotificationView-prefix.pch"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-prefix.pch"; sourceTree = "<group>"; };
-		04D710D043411CF4CA4BBD17 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-KANotificationView-umbrella.h"; sourceTree = "<group>"; };
-		0A908B9E62DFB8003D29C7E2 /* KANotificationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KANotificationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B534200EDCFAB6877836CBD /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-KANotificationView_Tests-KANotificationView-dummy.m"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-dummy.m"; sourceTree = "<group>"; };
-		1067EF151F79D1BC75CC3F7D /* Pods_KANotificationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KANotificationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D42427371FDC70CEA532315 /* KANotificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KANotificationView.swift; sourceTree = "<group>"; };
-		1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example-KANotificationView-Private.xcconfig"; sourceTree = "<group>"; };
-		363C19489C38FB663E75112A /* KANotificationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KANotificationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		369DA93584A972862D886C77 /* Pods-KANotificationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KANotificationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3BB17F939F7511FF7F515897 /* Pods-KANotificationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41954C8A5315F70AA28E9B4F /* Pods-KANotificationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Example.modulemap"; sourceTree = "<group>"; };
-		43150D4BD4B4967724C07126 /* Pods-KANotificationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KANotificationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43EC3FB91A9784CBAEB320A2 /* Pods-KANotificationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-umbrella.h"; sourceTree = "<group>"; };
-		470EABC6A55BDE7EB7478E6C /* Pods-KANotificationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4D691A832F5D51B26B6CC8B5 /* Pods-KANotificationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Example-dummy.m"; sourceTree = "<group>"; };
-		5ADDF99E9F27F3D32EDCD577 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KANotificationView_Tests-KANotificationView-umbrella.h"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-umbrella.h"; sourceTree = "<group>"; };
-		5D2D3DBAA4375233AD9AD256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-KANotificationView_Tests-KANotificationView/Info.plist"; sourceTree = "<group>"; };
-		6113E76460E1AA286FE4CC03 /* Pods-KANotificationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		67BC55639D486A86EFAAD99B /* Pods-KANotificationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Example-resources.sh"; sourceTree = "<group>"; };
-		6DD7EBC9E25757E13CDACE4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E6CDE443A277AB67A427FE7 /* Pods-KANotificationView_Tests-KANotificationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KANotificationView_Tests-KANotificationView.xcconfig"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.xcconfig"; sourceTree = "<group>"; };
-		6EDD551ABDAC82287315A476 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Example-KANotificationView-dummy.m"; sourceTree = "<group>"; };
-		6F5B6F6E50C6C0E213D2E3DC /* Pods-KANotificationView_Tests-KANotificationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-KANotificationView_Tests-KANotificationView.modulemap"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.modulemap"; sourceTree = "<group>"; };
-		761E98786A3A20FF182072B2 /* KANotificationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KANotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig"; sourceTree = "<group>"; };
-		83C842785FA5D4A7A3C5D0DE /* Pods-KANotificationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8610F61148DAD5221A2D7BAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86A827CD8C2BF25F9FF10965 /* Pods-KANotificationView_Example-KANotificationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example-KANotificationView.xcconfig"; sourceTree = "<group>"; };
-		88C11615ABD271B508DA3827 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8F4869ABC32DFD535605673B /* Pods-KANotificationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9E13ACC2402DA3AEBEBA7A0D /* Pods-KANotificationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KANotificationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8447CFD0097424DC82EA1A2 /* Pods-KANotificationView_Example-KANotificationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Example-KANotificationView.modulemap"; sourceTree = "<group>"; };
-		ACE867391AD9680329663E84 /* Pods-KANotificationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KANotificationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B057CFDE16A554F9F8F0086B /* Pods-KANotificationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1EC02A84F54DB49AF9E4E19 /* Pods-KANotificationView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Tests-environment.h"; sourceTree = "<group>"; };
-		B597B313CE5C91C2629C393F /* Pods-KANotificationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Tests.modulemap"; sourceTree = "<group>"; };
-		B7CEDE80178759509B22A7B0 /* Pods-KANotificationView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-environment.h"; sourceTree = "<group>"; };
-		BA4CE9E1A20E0D7D6E3F7F79 /* KANotificationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KANotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCC081EB1AB7705C97A4A2AA /* Pods-KANotificationView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Tests-resources.sh"; sourceTree = "<group>"; };
-		C5B6E9F21D5EA661EBE82C47 /* Pods-KANotificationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Tests-dummy.m"; sourceTree = "<group>"; };
-		C5B8BD51C813772266276750 /* Pods-KANotificationView_Example-KANotificationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-KANotificationView-prefix.pch"; sourceTree = "<group>"; };
-		CEA54758B7F47641F29A6348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D903C4F7753791027C705B52 /* Pods-KANotificationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E969946A41873CD1ABE04911 /* Pods_KANotificationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KANotificationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4592378AB140E002078F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0575BD1B48B0907BECD0F2C2 /* Pods-KANotificationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Example.modulemap"; sourceTree = "<group>"; };
+		068F3A8247E76EB3C346E7FB /* Pods-KANotificationView_Example-KANotificationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example-KANotificationView.xcconfig"; sourceTree = "<group>"; };
+		100B04D9803E4E6811DCF2C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13451E2570B51110B6A55351 /* KANotificationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KANotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1347DDEFB38690AFBC4E7048 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E1758F99B9BC369BBE7EB02 /* Pods-KANotificationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Example-resources.sh"; sourceTree = "<group>"; };
+		29D24E5EC0EF289B8D887601 /* Pods-KANotificationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2E4EEDB4C3F622C4080C7F2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328E7C0F89DCE561E60923D6 /* KANotificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KANotificationView.swift; sourceTree = "<group>"; };
+		336F7D3FAD5EC8DFF008178A /* Pods-KANotificationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		36D8BB66BFC85B540EC27963 /* Pods-KANotificationView_Tests-KANotificationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KANotificationView_Tests-KANotificationView-prefix.pch"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-prefix.pch"; sourceTree = "<group>"; };
+		3EFDEFFFBF3F331C07665ACD /* Pods-KANotificationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KANotificationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example-KANotificationView-Private.xcconfig"; sourceTree = "<group>"; };
+		4C7DE2DD8A893DBA38317746 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KANotificationView_Tests-KANotificationView-umbrella.h"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-umbrella.h"; sourceTree = "<group>"; };
+		5233D8C3B78103765EAB50A8 /* Pods-KANotificationView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-environment.h"; sourceTree = "<group>"; };
+		56AA9950D1320E42EABB1046 /* Pods-KANotificationView_Example-KANotificationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Example-KANotificationView.modulemap"; sourceTree = "<group>"; };
+		5E5680804F27F01DA48F0448 /* Pods_KANotificationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KANotificationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		620294B73DC39AFC216F9CED /* Pods-KANotificationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KANotificationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68DE7A6879FCD0A2E6370019 /* Pods-KANotificationView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Tests-resources.sh"; sourceTree = "<group>"; };
+		6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig"; sourceTree = "<group>"; };
+		74BD35657F72AEFDCA1AA9EE /* Pods-KANotificationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KANotificationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74BE32B7A5C7E48D6F59E778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-KANotificationView_Tests-KANotificationView/Info.plist"; sourceTree = "<group>"; };
+		74D60891EFCCED29227B9972 /* Pods_KANotificationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KANotificationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78436EA4DF11F7D195800804 /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-KANotificationView_Tests-KANotificationView-dummy.m"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-dummy.m"; sourceTree = "<group>"; };
+		78F484F358C399A846D3B0DD /* Pods-KANotificationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KANotificationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A43C7DC9D2F2EBB34767C74 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Example-KANotificationView-dummy.m"; sourceTree = "<group>"; };
+		7D150A43298767B5ACC7641F /* KANotificationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KANotificationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF0344649DF5785BB0A51DA /* Pods-KANotificationView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Tests-environment.h"; sourceTree = "<group>"; };
+		8E21D62D3ACD0A6391FC8916 /* Pods-KANotificationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B21612755A32045E91E7A1C1 /* Pods-KANotificationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KANotificationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B8B75429E9E6CC580DF04AFF /* Pods-KANotificationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KANotificationView_Tests.modulemap"; sourceTree = "<group>"; };
+		BC172D9A7DB5717EE2399563 /* Pods-KANotificationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC2BDC3E59F0019009D550B0 /* Pods-KANotificationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4A87A9D9BBD08BE4D15A2F1 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-KANotificationView-umbrella.h"; sourceTree = "<group>"; };
+		CD32FDFA97B7ECC9983BD803 /* Pods-KANotificationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Tests-dummy.m"; sourceTree = "<group>"; };
+		CD7E9634C13BB3051F997449 /* Pods-KANotificationView_Tests-KANotificationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KANotificationView_Tests-KANotificationView.xcconfig"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.xcconfig"; sourceTree = "<group>"; };
+		CDC78B6FF86218ADE653CA0C /* Pods-KANotificationView_Tests-KANotificationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-KANotificationView_Tests-KANotificationView.modulemap"; path = "../Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.modulemap"; sourceTree = "<group>"; };
+		CEE307E3F1DFE82AD69F668C /* Pods-KANotificationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KANotificationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3391550F72CBF7B8FC91A7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0CF7FC2567BA14A1C957C8 /* Pods-KANotificationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E0B3DA32F50EC0D5783A3091 /* KANotificationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KANotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A845979F2E3BD41A3F52F6 /* KANotificationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KANotificationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFBF1B981ACC410DFB176E /* Pods-KANotificationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KANotificationView_Example-dummy.m"; sourceTree = "<group>"; };
+		F8BBF766641F077D2105EEAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8F603A9DA7C9DAF890B3099 /* Pods-KANotificationView_Example-KANotificationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KANotificationView_Example-KANotificationView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2583569FB919BA7084166C32 /* Frameworks */ = {
+		109DEBE4E154D71BA101F574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3794F3B8FFB299AC219DD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFF349FBBFAF167E4F22716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EF68064ECDC13DC3D87A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3489042E5A8F7F97D18AC02B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37754F03997275DBE301E2E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AEADC27DA4FA55FE810BD55 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3800919CFAC241A08EA47717 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				006401C09F435125BD3F5958 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4523CFA636B7333DCAF2D953 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73DE2684FCDBC3A6CC675D7D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C76F4EF1B2F02859A2380078 /* Frameworks */ = {
+		A2C8E0C6B6EC0F60E7361831 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8F6140151A69D0EDB355E47 /* Frameworks */ = {
+		CBC2E571B3FAB3ED22D4DED6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72077372F46EBA984E22D28A /* Foundation.framework in Frameworks */,
+				8A0CA496A2B573244F575870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F3468BF4BDC93E523404D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06FF16C6C8FB317400FE361 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D57039ABF47C2A57E3FEFB3 /* Pods-KANotificationView_Tests */ = {
+		29974F6A260EDFE3DDFEA6DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8610F61148DAD5221A2D7BAB /* Info.plist */,
-				B597B313CE5C91C2629C393F /* Pods-KANotificationView_Tests.modulemap */,
-				43150D4BD4B4967724C07126 /* Pods-KANotificationView_Tests-acknowledgements.markdown */,
-				ACE867391AD9680329663E84 /* Pods-KANotificationView_Tests-acknowledgements.plist */,
-				C5B6E9F21D5EA661EBE82C47 /* Pods-KANotificationView_Tests-dummy.m */,
-				B1EC02A84F54DB49AF9E4E19 /* Pods-KANotificationView_Tests-environment.h */,
-				D903C4F7753791027C705B52 /* Pods-KANotificationView_Tests-frameworks.sh */,
-				BCC081EB1AB7705C97A4A2AA /* Pods-KANotificationView_Tests-resources.sh */,
-				6113E76460E1AA286FE4CC03 /* Pods-KANotificationView_Tests-umbrella.h */,
-				3BB17F939F7511FF7F515897 /* Pods-KANotificationView_Tests.debug.xcconfig */,
-				83C842785FA5D4A7A3C5D0DE /* Pods-KANotificationView_Tests.release.xcconfig */,
-			);
-			name = "Pods-KANotificationView_Tests";
-			path = "Target Support Files/Pods-KANotificationView_Tests";
-			sourceTree = "<group>";
-		};
-		3F4268455484F357182F6B0E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F2394B37DF358AA995BB14DA /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		5145BA8913355A76250617C8 /* Pods-KANotificationView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				FB4592378AB140E002078F0E /* Info.plist */,
-				41954C8A5315F70AA28E9B4F /* Pods-KANotificationView_Example.modulemap */,
-				9E13ACC2402DA3AEBEBA7A0D /* Pods-KANotificationView_Example-acknowledgements.markdown */,
-				369DA93584A972862D886C77 /* Pods-KANotificationView_Example-acknowledgements.plist */,
-				4D691A832F5D51B26B6CC8B5 /* Pods-KANotificationView_Example-dummy.m */,
-				B7CEDE80178759509B22A7B0 /* Pods-KANotificationView_Example-environment.h */,
-				8F4869ABC32DFD535605673B /* Pods-KANotificationView_Example-frameworks.sh */,
-				67BC55639D486A86EFAAD99B /* Pods-KANotificationView_Example-resources.sh */,
-				43EC3FB91A9784CBAEB320A2 /* Pods-KANotificationView_Example-umbrella.h */,
-				B057CFDE16A554F9F8F0086B /* Pods-KANotificationView_Example.debug.xcconfig */,
-				470EABC6A55BDE7EB7478E6C /* Pods-KANotificationView_Example.release.xcconfig */,
-			);
-			name = "Pods-KANotificationView_Example";
-			path = "Target Support Files/Pods-KANotificationView_Example";
-			sourceTree = "<group>";
-		};
-		6F456AE799C4E92C02931B4A /* KANotificationView */ = {
-			isa = PBXGroup;
-			children = (
-				3F4268455484F357182F6B0E /* Pod */,
-				85B65579318CBF8A5E741578 /* Support Files */,
-			);
-			name = KANotificationView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		70F75C729B0817E352512E08 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				80DEE389A7EC06038877DBAC /* iOS */,
+				A18D4D3D29BF5FE543EF5E74 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		766C0D4384260970B34A949A = {
+		380C8D370003AF5B788CEB3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88C11615ABD271B508DA3827 /* Podfile */,
-				DE3891A8E6EFB3A36CBC14B4 /* Development Pods */,
-				70F75C729B0817E352512E08 /* Frameworks */,
-				F4E4A1449EA7805A609DB40D /* Products */,
-				D53DACF7BB96A2829D23D590 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		80DEE389A7EC06038877DBAC /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEA54758B7F47641F29A6348 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		85B65579318CBF8A5E741578 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6DD7EBC9E25757E13CDACE4D /* Info.plist */,
-				5D2D3DBAA4375233AD9AD256 /* Info.plist */,
-				A8447CFD0097424DC82EA1A2 /* Pods-KANotificationView_Example-KANotificationView.modulemap */,
-				86A827CD8C2BF25F9FF10965 /* Pods-KANotificationView_Example-KANotificationView.xcconfig */,
-				1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */,
-				6EDD551ABDAC82287315A476 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */,
-				C5B8BD51C813772266276750 /* Pods-KANotificationView_Example-KANotificationView-prefix.pch */,
-				04D710D043411CF4CA4BBD17 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */,
-				6F5B6F6E50C6C0E213D2E3DC /* Pods-KANotificationView_Tests-KANotificationView.modulemap */,
-				6E6CDE443A277AB67A427FE7 /* Pods-KANotificationView_Tests-KANotificationView.xcconfig */,
-				7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */,
-				0B534200EDCFAB6877836CBD /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */,
-				03710DD73ACB693BD5622D18 /* Pods-KANotificationView_Tests-KANotificationView-prefix.pch */,
-				5ADDF99E9F27F3D32EDCD577 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */,
+				D3391550F72CBF7B8FC91A7C /* Info.plist */,
+				74BE32B7A5C7E48D6F59E778 /* Info.plist */,
+				56AA9950D1320E42EABB1046 /* Pods-KANotificationView_Example-KANotificationView.modulemap */,
+				068F3A8247E76EB3C346E7FB /* Pods-KANotificationView_Example-KANotificationView.xcconfig */,
+				48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */,
+				7A43C7DC9D2F2EBB34767C74 /* Pods-KANotificationView_Example-KANotificationView-dummy.m */,
+				F8F603A9DA7C9DAF890B3099 /* Pods-KANotificationView_Example-KANotificationView-prefix.pch */,
+				C4A87A9D9BBD08BE4D15A2F1 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h */,
+				CDC78B6FF86218ADE653CA0C /* Pods-KANotificationView_Tests-KANotificationView.modulemap */,
+				CD7E9634C13BB3051F997449 /* Pods-KANotificationView_Tests-KANotificationView.xcconfig */,
+				6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */,
+				78436EA4DF11F7D195800804 /* Pods-KANotificationView_Tests-KANotificationView-dummy.m */,
+				36D8BB66BFC85B540EC27963 /* Pods-KANotificationView_Tests-KANotificationView-prefix.pch */,
+				4C7DE2DD8A893DBA38317746 /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-KANotificationView_Example-KANotificationView";
 			sourceTree = "<group>";
 		};
-		D53DACF7BB96A2829D23D590 /* Targets Support Files */ = {
+		50C2759A78DDC3470708362D /* Pods-KANotificationView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5145BA8913355A76250617C8 /* Pods-KANotificationView_Example */,
-				1D57039ABF47C2A57E3FEFB3 /* Pods-KANotificationView_Tests */,
+				100B04D9803E4E6811DCF2C0 /* Info.plist */,
+				0575BD1B48B0907BECD0F2C2 /* Pods-KANotificationView_Example.modulemap */,
+				620294B73DC39AFC216F9CED /* Pods-KANotificationView_Example-acknowledgements.markdown */,
+				74BD35657F72AEFDCA1AA9EE /* Pods-KANotificationView_Example-acknowledgements.plist */,
+				E9EFBF1B981ACC410DFB176E /* Pods-KANotificationView_Example-dummy.m */,
+				5233D8C3B78103765EAB50A8 /* Pods-KANotificationView_Example-environment.h */,
+				336F7D3FAD5EC8DFF008178A /* Pods-KANotificationView_Example-frameworks.sh */,
+				1E1758F99B9BC369BBE7EB02 /* Pods-KANotificationView_Example-resources.sh */,
+				BC172D9A7DB5717EE2399563 /* Pods-KANotificationView_Example-umbrella.h */,
+				8E21D62D3ACD0A6391FC8916 /* Pods-KANotificationView_Example.debug.xcconfig */,
+				BC2BDC3E59F0019009D550B0 /* Pods-KANotificationView_Example.release.xcconfig */,
+			);
+			name = "Pods-KANotificationView_Example";
+			path = "Target Support Files/Pods-KANotificationView_Example";
+			sourceTree = "<group>";
+		};
+		69097E6E52B20B1146E03847 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50C2759A78DDC3470708362D /* Pods-KANotificationView_Example */,
+				D40AF7DC1A323D1D738E76AC /* Pods-KANotificationView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DE3891A8E6EFB3A36CBC14B4 /* Development Pods */ = {
+		82D4EB3748113488D53E97DA = {
 			isa = PBXGroup;
 			children = (
-				6F456AE799C4E92C02931B4A /* KANotificationView */,
+				1347DDEFB38690AFBC4E7048 /* Podfile */,
+				EB26C218F635C0D8D777F0FF /* Development Pods */,
+				29974F6A260EDFE3DDFEA6DF /* Frameworks */,
+				CE844B3400B09747C6DEAB12 /* Products */,
+				69097E6E52B20B1146E03847 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85965C25BFDA4E2D6EF55703 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F84038E0A5D7D8EE9185C773 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A18D4D3D29BF5FE543EF5E74 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8BBF766641F077D2105EEAE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE844B3400B09747C6DEAB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D150A43298767B5ACC7641F /* KANotificationView.bundle */,
+				E2A845979F2E3BD41A3F52F6 /* KANotificationView.bundle */,
+				E0B3DA32F50EC0D5783A3091 /* KANotificationView.framework */,
+				13451E2570B51110B6A55351 /* KANotificationView.framework */,
+				5E5680804F27F01DA48F0448 /* Pods_KANotificationView_Example.framework */,
+				74D60891EFCCED29227B9972 /* Pods_KANotificationView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40AF7DC1A323D1D738E76AC /* Pods-KANotificationView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4EEDB4C3F622C4080C7F2D /* Info.plist */,
+				B8B75429E9E6CC580DF04AFF /* Pods-KANotificationView_Tests.modulemap */,
+				78F484F358C399A846D3B0DD /* Pods-KANotificationView_Tests-acknowledgements.markdown */,
+				3EFDEFFFBF3F331C07665ACD /* Pods-KANotificationView_Tests-acknowledgements.plist */,
+				CD32FDFA97B7ECC9983BD803 /* Pods-KANotificationView_Tests-dummy.m */,
+				8BF0344649DF5785BB0A51DA /* Pods-KANotificationView_Tests-environment.h */,
+				B21612755A32045E91E7A1C1 /* Pods-KANotificationView_Tests-frameworks.sh */,
+				68DE7A6879FCD0A2E6370019 /* Pods-KANotificationView_Tests-resources.sh */,
+				DB0CF7FC2567BA14A1C957C8 /* Pods-KANotificationView_Tests-umbrella.h */,
+				CEE307E3F1DFE82AD69F668C /* Pods-KANotificationView_Tests.debug.xcconfig */,
+				29D24E5EC0EF289B8D887601 /* Pods-KANotificationView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KANotificationView_Tests";
+			path = "Target Support Files/Pods-KANotificationView_Tests";
+			sourceTree = "<group>";
+		};
+		DD24359FA25770B137399501 /* KANotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				85965C25BFDA4E2D6EF55703 /* Pod */,
+				380C8D370003AF5B788CEB3A /* Support Files */,
+			);
+			name = KANotificationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB26C218F635C0D8D777F0FF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD24359FA25770B137399501 /* KANotificationView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F2394B37DF358AA995BB14DA /* Classes */ = {
+		F84038E0A5D7D8EE9185C773 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D42427371FDC70CEA532315 /* KANotificationView.swift */,
+				328E7C0F89DCE561E60923D6 /* KANotificationView.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F4E4A1449EA7805A609DB40D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				363C19489C38FB663E75112A /* KANotificationView.bundle */,
-				0A908B9E62DFB8003D29C7E2 /* KANotificationView.bundle */,
-				BA4CE9E1A20E0D7D6E3F7F79 /* KANotificationView.framework */,
-				761E98786A3A20FF182072B2 /* KANotificationView.framework */,
-				1067EF151F79D1BC75CC3F7D /* Pods_KANotificationView_Example.framework */,
-				E969946A41873CD1ABE04911 /* Pods_KANotificationView_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0069DC66A5DEC83C56BE8809 /* Headers */ = {
+		3FED581152D0086578BAE31C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0E608FB37EF9B2E8265FEF6 /* Pods-KANotificationView_Example-KANotificationView-umbrella.h in Headers */,
+				59A5C139E8E9FE6494C7DB6B /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59D4CCB73995AE4ACD26F655 /* Headers */ = {
+		8D2C75B5D87080F4C6CED5C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F145500C44569B53FDB6CC /* Pods-KANotificationView_Tests-KANotificationView-umbrella.h in Headers */,
+				F884DAAED6543A3BB90D8B08 /* Pods-KANotificationView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		901AED8623C947468FFB4F5F /* Headers */ = {
+		9198C3BDEAFB72405A08756D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5D20795ACFF14527CBF893 /* Pods-KANotificationView_Example-umbrella.h in Headers */,
+				BB10E68ED9450FA44600F0FA /* Pods-KANotificationView_Example-KANotificationView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E33FDB1E2E865B2F84A95799 /* Headers */ = {
+		D8C7CD95EE700B20C798A31B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE3EF790666ACF0D694D12B /* Pods-KANotificationView_Tests-umbrella.h in Headers */,
+				12BE71BECF4D4FFA44864697 /* Pods-KANotificationView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B4A6CB2567F65DEB35197553 /* Pods-KANotificationView_Tests-KANotificationView */ = {
+		32BEB1C1583ADB4C2CD23392 /* Pods-KANotificationView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 340014913CBA0C8A49449C40 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView" */;
+			buildConfigurationList = 17EB010037511D92D8B589B9 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests" */;
 			buildPhases = (
-				CDFDD39E398455689257525B /* Sources */,
-				E8F6140151A69D0EDB355E47 /* Frameworks */,
-				5F7A31DDB15580A9E95EF2C4 /* Resources */,
-				59D4CCB73995AE4ACD26F655 /* Headers */,
+				B38F4601DBF6B32874ADA8FE /* Sources */,
+				2FFF349FBBFAF167E4F22716 /* Frameworks */,
+				8D2C75B5D87080F4C6CED5C2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4AE7563E55157CCDBE94B575 /* PBXTargetDependency */,
+				F40D33EA532266DD6B5019BE /* PBXTargetDependency */,
 			);
-			name = "Pods-KANotificationView_Tests-KANotificationView";
-			productName = "Pods-KANotificationView_Tests-KANotificationView";
-			productReference = 761E98786A3A20FF182072B2 /* KANotificationView.framework */;
+			name = "Pods-KANotificationView_Tests";
+			productName = "Pods-KANotificationView_Tests";
+			productReference = 74D60891EFCCED29227B9972 /* Pods_KANotificationView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B96F604014FB3B9A58E4ED5B /* Pods-KANotificationView_Example-KANotificationView */ = {
+		D9CD6750456368052B990696 /* Pods-KANotificationView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B913E12FBF16111745C910B /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView" */;
+			buildConfigurationList = 85A147D3EFF9F3FFD5454F69 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example" */;
 			buildPhases = (
-				2A0A0AA5CC67E6D7BF36FBF4 /* Sources */,
-				37754F03997275DBE301E2E6 /* Frameworks */,
-				B1F457E387C3C0FD4978EA00 /* Resources */,
-				0069DC66A5DEC83C56BE8809 /* Headers */,
+				C267D12CDF5D64DD5E4B8801 /* Sources */,
+				D4F3468BF4BDC93E523404D4 /* Frameworks */,
+				D8C7CD95EE700B20C798A31B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4B5A1DA790FDD6F216FAF0E /* PBXTargetDependency */,
+				39F387B3A1ED181C07D2E219 /* PBXTargetDependency */,
 			);
-			name = "Pods-KANotificationView_Example-KANotificationView";
-			productName = "Pods-KANotificationView_Example-KANotificationView";
-			productReference = BA4CE9E1A20E0D7D6E3F7F79 /* KANotificationView.framework */;
+			name = "Pods-KANotificationView_Example";
+			productName = "Pods-KANotificationView_Example";
+			productReference = 5E5680804F27F01DA48F0448 /* Pods_KANotificationView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CAF133FDDD80FBB5DA2622E0 /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */ = {
+		DF7122D62860FCFC1EA3652F /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60FB4339977D73C30C218131 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView-KANotificationView" */;
+			buildConfigurationList = 39980AB589F603068F449C2C /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView-KANotificationView" */;
 			buildPhases = (
-				AD0844F495D964357B58A1E1 /* Sources */,
-				C76F4EF1B2F02859A2380078 /* Frameworks */,
-				0BC67DAFD20D4CB8F85C500D /* Resources */,
+				851BA358BC56842B747C9613 /* Sources */,
+				3489042E5A8F7F97D18AC02B /* Frameworks */,
+				6B9C0544143D9793137CDCB2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -387,16 +385,16 @@
 			);
 			name = "Pods-KANotificationView_Tests-KANotificationView-KANotificationView";
 			productName = "Pods-KANotificationView_Tests-KANotificationView-KANotificationView";
-			productReference = 363C19489C38FB663E75112A /* KANotificationView.bundle */;
+			productReference = 7D150A43298767B5ACC7641F /* KANotificationView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		E46D8A8BEDAC2543E1533D54 /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */ = {
+		E0357B6064CDB432C0E2F2DA /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E31406C06FFDA52B4AFD0310 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView-KANotificationView" */;
+			buildConfigurationList = 637DFD631841CC0D3A3D5365 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView-KANotificationView" */;
 			buildPhases = (
-				16D1037C8F5E20E47728CB0B /* Sources */,
-				2583569FB919BA7084166C32 /* Frameworks */,
-				D997E48816463B2929FEFCCB /* Resources */,
+				1D8539AC4338884519BC635D /* Sources */,
+				A2C8E0C6B6EC0F60E7361831 /* Frameworks */,
+				7128F10909C16BE45BBC6C28 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -404,190 +402,253 @@
 			);
 			name = "Pods-KANotificationView_Example-KANotificationView-KANotificationView";
 			productName = "Pods-KANotificationView_Example-KANotificationView-KANotificationView";
-			productReference = 0A908B9E62DFB8003D29C7E2 /* KANotificationView.bundle */;
+			productReference = E2A845979F2E3BD41A3F52F6 /* KANotificationView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		E53D784900049B7928538716 /* Pods-KANotificationView_Example */ = {
+		F08EB988D2D81518F0046374 /* Pods-KANotificationView_Example-KANotificationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 108D72FE528A93C3E245118B /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example" */;
+			buildConfigurationList = 126F814CC227E4100BA7E8DD /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView" */;
 			buildPhases = (
-				614091797DD7E4749DD298FF /* Sources */,
-				4523CFA636B7333DCAF2D953 /* Frameworks */,
-				901AED8623C947468FFB4F5F /* Headers */,
+				EC14C59E74C0C03D23D357ED /* Sources */,
+				CBC2E571B3FAB3ED22D4DED6 /* Frameworks */,
+				37FE2E2602F830A8EEC7BA7B /* Resources */,
+				9198C3BDEAFB72405A08756D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3EDC5946D3BC97A89725FE00 /* PBXTargetDependency */,
+				A763A8C530FE39819E38B692 /* PBXTargetDependency */,
 			);
-			name = "Pods-KANotificationView_Example";
-			productName = "Pods-KANotificationView_Example";
-			productReference = 1067EF151F79D1BC75CC3F7D /* Pods_KANotificationView_Example.framework */;
+			name = "Pods-KANotificationView_Example-KANotificationView";
+			productName = "Pods-KANotificationView_Example-KANotificationView";
+			productReference = E0B3DA32F50EC0D5783A3091 /* KANotificationView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EDEBE2BB805D3DE261EA8FA6 /* Pods-KANotificationView_Tests */ = {
+		F4D9B00D3C87FA5F2DDC224C /* Pods-KANotificationView_Tests-KANotificationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92EDA3F9BA68D2BE3C6D325A /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests" */;
+			buildConfigurationList = 4AB98B7D5A489A96D21FD7C5 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView" */;
 			buildPhases = (
-				AE53DC6FB46B95F85B12441A /* Sources */,
-				3800919CFAC241A08EA47717 /* Frameworks */,
-				E33FDB1E2E865B2F84A95799 /* Headers */,
+				814A54EFA615E0DA0B9C05D1 /* Sources */,
+				109DEBE4E154D71BA101F574 /* Frameworks */,
+				992151F4EF5E714A42EDB67C /* Resources */,
+				3FED581152D0086578BAE31C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AAC8C202B9241F9877B07D0 /* PBXTargetDependency */,
+				0C26F1DCC12F54FA83F4A876 /* PBXTargetDependency */,
 			);
-			name = "Pods-KANotificationView_Tests";
-			productName = "Pods-KANotificationView_Tests";
-			productReference = E969946A41873CD1ABE04911 /* Pods_KANotificationView_Tests.framework */;
+			name = "Pods-KANotificationView_Tests-KANotificationView";
+			productName = "Pods-KANotificationView_Tests-KANotificationView";
+			productReference = 13451E2570B51110B6A55351 /* KANotificationView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F53FE20AA467E65F20FA9350 /* Project object */ = {
+		F8BC8B38F66B07D0A285036F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = BA45C3F03A5AF16C42E0A221 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = D323ED3CB68446892C702015 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 766C0D4384260970B34A949A;
-			productRefGroup = F4E4A1449EA7805A609DB40D /* Products */;
+			mainGroup = 82D4EB3748113488D53E97DA;
+			productRefGroup = CE844B3400B09747C6DEAB12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E53D784900049B7928538716 /* Pods-KANotificationView_Example */,
-				B96F604014FB3B9A58E4ED5B /* Pods-KANotificationView_Example-KANotificationView */,
-				E46D8A8BEDAC2543E1533D54 /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */,
-				EDEBE2BB805D3DE261EA8FA6 /* Pods-KANotificationView_Tests */,
-				B4A6CB2567F65DEB35197553 /* Pods-KANotificationView_Tests-KANotificationView */,
-				CAF133FDDD80FBB5DA2622E0 /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */,
+				D9CD6750456368052B990696 /* Pods-KANotificationView_Example */,
+				F08EB988D2D81518F0046374 /* Pods-KANotificationView_Example-KANotificationView */,
+				E0357B6064CDB432C0E2F2DA /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */,
+				32BEB1C1583ADB4C2CD23392 /* Pods-KANotificationView_Tests */,
+				F4D9B00D3C87FA5F2DDC224C /* Pods-KANotificationView_Tests-KANotificationView */,
+				DF7122D62860FCFC1EA3652F /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BC67DAFD20D4CB8F85C500D /* Resources */ = {
+		37FE2E2602F830A8EEC7BA7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2979DACA254E13E7C65D34A4 /* KANotificationView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9C0544143D9793137CDCB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F7A31DDB15580A9E95EF2C4 /* Resources */ = {
+		7128F10909C16BE45BBC6C28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8613C0A34B85FC89D6B9E6ED /* KANotificationView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1F457E387C3C0FD4978EA00 /* Resources */ = {
+		992151F4EF5E714A42EDB67C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0759BA4D9E24261B2F999D57 /* KANotificationView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D997E48816463B2929FEFCCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EE16DA70C457DF98C90708E9 /* KANotificationView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16D1037C8F5E20E47728CB0B /* Sources */ = {
+		1D8539AC4338884519BC635D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A0A0AA5CC67E6D7BF36FBF4 /* Sources */ = {
+		814A54EFA615E0DA0B9C05D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F6705C90C1371DA2A731BA /* KANotificationView.swift in Sources */,
-				6B82A3F82A05551FB165989C /* Pods-KANotificationView_Example-KANotificationView-dummy.m in Sources */,
+				D25B80BA042CCF9000FE0635 /* KANotificationView.swift in Sources */,
+				07C34A4CC57A785B5141037F /* Pods-KANotificationView_Tests-KANotificationView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		614091797DD7E4749DD298FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCA8DA1671685304C1E9A3FA /* Pods-KANotificationView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD0844F495D964357B58A1E1 /* Sources */ = {
+		851BA358BC56842B747C9613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE53DC6FB46B95F85B12441A /* Sources */ = {
+		B38F4601DBF6B32874ADA8FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59DBF4C316A12FFF213E1270 /* Pods-KANotificationView_Tests-dummy.m in Sources */,
+				3F6529BCB3EC04E90A367BD4 /* Pods-KANotificationView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDFDD39E398455689257525B /* Sources */ = {
+		C267D12CDF5D64DD5E4B8801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6AA2414312F1D9990F22F96 /* KANotificationView.swift in Sources */,
-				9D35E9B693F775DBA509FFC3 /* Pods-KANotificationView_Tests-KANotificationView-dummy.m in Sources */,
+				635AD6424655EA6FBD705D9C /* Pods-KANotificationView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC14C59E74C0C03D23D357ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BED97CC7A438FB2C405A7F /* KANotificationView.swift in Sources */,
+				735E9FD4AFF26CAA4E7E1809 /* Pods-KANotificationView_Example-KANotificationView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AAC8C202B9241F9877B07D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KANotificationView_Tests-KANotificationView";
-			target = B4A6CB2567F65DEB35197553 /* Pods-KANotificationView_Tests-KANotificationView */;
-			targetProxy = 55C62744D5E32D0B7B84A8D0 /* PBXContainerItemProxy */;
-		};
-		3EDC5946D3BC97A89725FE00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KANotificationView_Example-KANotificationView";
-			target = B96F604014FB3B9A58E4ED5B /* Pods-KANotificationView_Example-KANotificationView */;
-			targetProxy = BDA5A9911038C235993BC4BE /* PBXContainerItemProxy */;
-		};
-		4AE7563E55157CCDBE94B575 /* PBXTargetDependency */ = {
+		0C26F1DCC12F54FA83F4A876 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KANotificationView_Tests-KANotificationView-KANotificationView";
-			target = CAF133FDDD80FBB5DA2622E0 /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */;
-			targetProxy = B2656A04F85B1B45C5105D6C /* PBXContainerItemProxy */;
+			target = DF7122D62860FCFC1EA3652F /* Pods-KANotificationView_Tests-KANotificationView-KANotificationView */;
+			targetProxy = 31D95D0B6C3E6FC2A91AB868 /* PBXContainerItemProxy */;
 		};
-		E4B5A1DA790FDD6F216FAF0E /* PBXTargetDependency */ = {
+		39F387B3A1ED181C07D2E219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KANotificationView_Example-KANotificationView";
+			target = F08EB988D2D81518F0046374 /* Pods-KANotificationView_Example-KANotificationView */;
+			targetProxy = B4ABC9AFBCF17F94A6F838EB /* PBXContainerItemProxy */;
+		};
+		A763A8C530FE39819E38B692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KANotificationView_Example-KANotificationView-KANotificationView";
-			target = E46D8A8BEDAC2543E1533D54 /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */;
-			targetProxy = 258B47C4CCF57B236F51AA53 /* PBXContainerItemProxy */;
+			target = E0357B6064CDB432C0E2F2DA /* Pods-KANotificationView_Example-KANotificationView-KANotificationView */;
+			targetProxy = C4E12C0C02F44E4545BD8BCA /* PBXContainerItemProxy */;
+		};
+		F40D33EA532266DD6B5019BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KANotificationView_Tests-KANotificationView";
+			target = F4D9B00D3C87FA5F2DDC224C /* Pods-KANotificationView_Tests-KANotificationView */;
+			targetProxy = D32B3A9CD744B74E2ED1051C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2478DEEBB5FAD24871262906 /* Release */ = {
+		0C22836F1BA37765357CC048 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
+			baseConfigurationReference = 48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B068401AE7B834CF7EB9F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C8B07FA900645154B5D6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -612,9 +673,67 @@
 			};
 			name = Release;
 		};
-		3B708A3BEF8F39E02284DDF0 /* Release */ = {
+		2513D12C901AD6D8F2DF29C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C842785FA5D4A7A3C5D0DE /* Pods-KANotificationView_Tests.release.xcconfig */;
+			baseConfigurationReference = 8E21D62D3ACD0A6391FC8916 /* Pods-KANotificationView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example/Pods-KANotificationView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KANotificationView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		784F189530ED0144BAE6243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ACF33A629C37E80CD6F0498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D24E5EC0EF289B8D887601 /* Pods-KANotificationView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -641,7 +760,77 @@
 			};
 			name = Release;
 		};
-		4A65DCCD1CE757DBB4768132 /* Debug */ = {
+		878D95F3B20747641B4235F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9A095CC64DE9102975CC4BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2BDC3E59F0019009D550B0 /* Pods-KANotificationView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example/Pods-KANotificationView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_KANotificationView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6C50C7B8F21C2F4DCCDE9E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEAE3AB84000104C2E0F5A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -680,22 +869,9 @@
 			};
 			name = Debug;
 		};
-		560343756EB1F574ECB82DF9 /* Debug */ = {
+		B81A0A759D293ECA48B40212 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5E30E3D16E43EF747E5DCEC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
+			baseConfigurationReference = 48F386E81D12D6D58ED8645A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -706,9 +882,35 @@
 			};
 			name = Release;
 		};
-		6EE251A1CC654286E0F2CB56 /* Debug */ = {
+		BB81D3ABD0B4178D7D0D8265 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB17F939F7511FF7F515897 /* Pods-KANotificationView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C65A0BB649A8E3FD2B0B3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F01BA3947D9D55D2F30AC5A /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KANotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F280E5CB4BA61A6277A9D4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE307E3F1DFE82AD69F668C /* Pods-KANotificationView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -736,275 +938,73 @@
 			};
 			name = Debug;
 		};
-		90E26E0B5406243BA25BD5B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9BA6DAECE3B748BCD67EBFD1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Tests-KANotificationView/Pods-KANotificationView_Tests-KANotificationView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A23BB4DF5A3A6B50021D85B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A5C951659EAD313F691DF9D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E60D76A81BEF2D5F786A89A /* Pods-KANotificationView_Example-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example-KANotificationView/Pods-KANotificationView_Example-KANotificationView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC6AD2A5AD0B9D2D51632979 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C6EC1B4E18624531008E66F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B057CFDE16A554F9F8F0086B /* Pods-KANotificationView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example/Pods-KANotificationView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_KANotificationView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F3CA601FF960FD4538F5ED57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DDDD62C609ED18072D2C393 /* Pods-KANotificationView_Tests-KANotificationView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KANotificationView_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = KANotificationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FE1B70563C0BAB4155D5225F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 470EABC6A55BDE7EB7478E6C /* Pods-KANotificationView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-KANotificationView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-KANotificationView_Example/Pods-KANotificationView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_KANotificationView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		108D72FE528A93C3E245118B /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example" */ = {
+		126F814CC227E4100BA7E8DD /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6EC1B4E18624531008E66F2 /* Debug */,
-				FE1B70563C0BAB4155D5225F /* Release */,
+				A6C50C7B8F21C2F4DCCDE9E1 /* Debug */,
+				0C22836F1BA37765357CC048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		340014913CBA0C8A49449C40 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView" */ = {
+		17EB010037511D92D8B589B9 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BA6DAECE3B748BCD67EBFD1 /* Debug */,
-				2478DEEBB5FAD24871262906 /* Release */,
+				F280E5CB4BA61A6277A9D4D2 /* Debug */,
+				7ACF33A629C37E80CD6F0498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B913E12FBF16111745C910B /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView" */ = {
+		39980AB589F603068F449C2C /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView-KANotificationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90E26E0B5406243BA25BD5B2 /* Debug */,
-				A5C951659EAD313F691DF9D8 /* Release */,
+				BB81D3ABD0B4178D7D0D8265 /* Debug */,
+				C65A0BB649A8E3FD2B0B3B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60FB4339977D73C30C218131 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView-KANotificationView" */ = {
+		4AB98B7D5A489A96D21FD7C5 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests-KANotificationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC6AD2A5AD0B9D2D51632979 /* Debug */,
-				F3CA601FF960FD4538F5ED57 /* Release */,
+				784F189530ED0144BAE6243F /* Debug */,
+				1C8B07FA900645154B5D6FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92EDA3F9BA68D2BE3C6D325A /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Tests" */ = {
+		637DFD631841CC0D3A3D5365 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView-KANotificationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EE251A1CC654286E0F2CB56 /* Debug */,
-				3B708A3BEF8F39E02284DDF0 /* Release */,
+				878D95F3B20747641B4235F0 /* Debug */,
+				B81A0A759D293ECA48B40212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA45C3F03A5AF16C42E0A221 /* Build configuration list for PBXProject "Pods" */ = {
+		85A147D3EFF9F3FFD5454F69 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A65DCCD1CE757DBB4768132 /* Debug */,
-				A23BB4DF5A3A6B50021D85B2 /* Release */,
+				2513D12C901AD6D8F2DF29C1 /* Debug */,
+				9A095CC64DE9102975CC4BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E31406C06FFDA52B4AFD0310 /* Build configuration list for PBXNativeTarget "Pods-KANotificationView_Example-KANotificationView-KANotificationView" */ = {
+		D323ED3CB68446892C702015 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				560343756EB1F574ECB82DF9 /* Debug */,
-				5E30E3D16E43EF747E5DCEC5 /* Release */,
+				AEAE3AB84000104C2E0F5A1B /* Debug */,
+				1B068401AE7B834CF7EB9F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F53FE20AA467E65F20FA9350 /* Project object */;
+	rootObject = F8BC8B38F66B07D0A285036F /* Project object */;
 }

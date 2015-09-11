@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KANotificationView
 
 class ViewController: UIViewController {
 

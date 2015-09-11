@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E46D8A8BEDAC2543E1533D54"
+               BlueprintIdentifier = "E0357B6064CDB432C0E2F2DA"
                BuildableName = "KANotificationView.bundle"
                BlueprintName = "Pods-KANotificationView_Example-KANotificationView-KANotificationView"
                ReferencedContainer = "container:Pods.xcodeproj">
