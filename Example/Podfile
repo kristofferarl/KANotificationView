@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'KANotificationView_Example', :exclusive => true do
+  pod "KANotificationView", :path => "../"
+end
+
+target 'KANotificationView_Tests', :exclusive => true do
+  pod "KANotificationView", :path => "../"
+
+  
+end
