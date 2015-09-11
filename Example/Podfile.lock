@@ -1,0 +1,14 @@
+PODS:
+  - KANotificationView (0.1.0)
+
+DEPENDENCIES:
+  - KANotificationView (from `../`)
+
+EXTERNAL SOURCES:
+  KANotificationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KANotificationView: 6652f414a38d1003fb64702bfa0cdaab9e006ce2
+
+COCOAPODS: 0.37.2

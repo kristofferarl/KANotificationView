@@ -1,0 +1,6 @@
+framework module KANotificationView {
+  umbrella header "Pods-KANotificationView_Tests-KANotificationView-umbrella.h"
+
+  export *
+  module * { export * }
+}
