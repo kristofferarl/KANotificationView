@@ -1,6 +1,6 @@
 # KANotificationView
 
-[![CI Status](http://img.shields.io/travis/Kristoffer Arlefur/KANotificationView.svg?style=flat)](https://travis-ci.org/Kristoffer Arlefur/KANotificationView)
+[![Build Status](https://travis-ci.org/kristofferarl/KANotificationView.svg?branch=master)](https://travis-ci.org/kristofferarl/KANotificationView)
 [![Version](https://img.shields.io/cocoapods/v/KANotificationView.svg?style=flat)](http://cocoapods.org/pods/KANotificationView)
 [![License](https://img.shields.io/cocoapods/l/KANotificationView.svg?style=flat)](http://cocoapods.org/pods/KANotificationView)
 [![Platform](https://img.shields.io/cocoapods/p/KANotificationView.svg?style=flat)](http://cocoapods.org/pods/KANotificationView)
