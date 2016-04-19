@@ -38,7 +38,7 @@ public class KANotificationView: UIView {
         setup()
     }
 
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -97,7 +97,7 @@ public class KANotificationView: UIView {
         }
         else {
 
-            println("No valid navigationController was found in viewController!")
+            print("No valid navigationController was found in viewController!")
         }
     }
 
@@ -204,10 +204,10 @@ public class KANotificationView: UIView {
     
     private func setup() {
         
-        setTranslatesAutoresizingMaskIntoConstraints(false)
+        translatesAutoresizingMaskIntoConstraints = false
         
         let blurView = NotificationBlurView(blurEffect: self.blurEffect, title: self.title)
-        blurView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        blurView.translatesAutoresizingMaskIntoConstraints = false
         
         addSubview(blurView)
         
@@ -215,8 +215,8 @@ public class KANotificationView: UIView {
             "BlurView": blurView
         ]
         
-        let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[BlurView]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: views)
-        let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[BlurView]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: views)
+        let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[BlurView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views)
+        let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[BlurView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views)
         
         NSLayoutConstraint.activateConstraints(horizontalConstraints)
         NSLayoutConstraint.activateConstraints(verticalConstraints)
@@ -233,7 +233,7 @@ public class KANotificationView: UIView {
             titleLabel = UILabel()
             titleLabel.text = title
             titleLabel.textAlignment = NSTextAlignment.Center
-            titleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
+            titleLabel.translatesAutoresizingMaskIntoConstraints = false
             titleLabel.font = UIFont.systemFontOfSize(16)
             titleLabel.numberOfLines = 0
 
@@ -241,7 +241,7 @@ public class KANotificationView: UIView {
 
             let vibrancyEffect = UIVibrancyEffect(forBlurEffect: blurEffect)
             let vibrancyView = UIVisualEffectView(effect: vibrancyEffect)
-            vibrancyView.setTranslatesAutoresizingMaskIntoConstraints(false)
+            vibrancyView.translatesAutoresizingMaskIntoConstraints = false
 
             contentView.addSubview(vibrancyView)
 
@@ -254,8 +254,8 @@ public class KANotificationView: UIView {
 
             let labelHorizontalConstrains = NSLayoutConstraint.constraintsWithVisualFormat("H:|-10-[Label]-10-|", options: NSLayoutFormatOptions.AlignAllCenterX, metrics: nil, views: views)
             let labelVerticalConstrains = NSLayoutConstraint.constraintsWithVisualFormat("V:|-100-[Label]-10-|", options: NSLayoutFormatOptions.AlignAllCenterY, metrics: nil, views: views)
-            let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[VibrancyView]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: views)
-            let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[VibrancyView]|", options: NSLayoutFormatOptions.allZeros, metrics: nil, views: views)
+            let horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[VibrancyView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views)
+            let verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[VibrancyView]|", options: NSLayoutFormatOptions(), metrics: nil, views: views)
 
             NSLayoutConstraint.activateConstraints(horizontalConstraints)
             NSLayoutConstraint.activateConstraints(verticalConstraints)
@@ -264,7 +264,7 @@ public class KANotificationView: UIView {
             NSLayoutConstraint.activateConstraints(labelVerticalConstrains)
         }
 
-        required init(coder aDecoder: NSCoder) {
+        required init?(coder aDecoder: NSCoder) {
             fatalError("init(coder:) has not been implemented")
         }
     }

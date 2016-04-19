@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             type: KANotificationView.NotificationViewType.Information) {
                 (completed) -> Void in
                 
-                println("This is a callback")
+                print("This is a callback")
         }
     }
 }
